@@ -21,7 +21,7 @@ int main(int argc,char *argv[]) {
           j++;  
         } //copy array 
       }
-    if(j == 0) printf("No Prime !\n"); 
+    if(j == 0) printf("no prime\n"); 
     else { 
     display(prime,j); 
     bubbleSort(prime,j);
