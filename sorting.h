@@ -41,9 +41,9 @@ void bubbleSort(int a[],int n) {
            swap(&a[i],&a[i+1]); 
           sorted = 1;
         }
+       display(a,n);
     }    
      if(sorted == 0) break; 
-     display(a,n);
   } 
 }
 int isprime(int numpi) {
